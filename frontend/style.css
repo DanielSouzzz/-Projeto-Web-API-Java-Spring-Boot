@@ -5,7 +5,10 @@
 
 h1 {
     margin: 40px 0 40px 0;
-    color: blue;
+    font-size: 40px; 
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #288888;
 }
 
 body {
@@ -28,5 +31,13 @@ body {
     
     button {
         width: 150px;
-        height: 25px;
+        height: 40px;
+        background-color: #00ffc8;
+        border-radius: 100px 100px 100px 100px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    }
+
+    button > p {
+        font-size: 20px;
+        font-family: Arial, sans-serif;
     }
